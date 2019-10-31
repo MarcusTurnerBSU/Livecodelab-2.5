@@ -1,0 +1,18 @@
+bpm 90
+// leave this one as base
+play 'tranceKick'  ,'-x-x ---x x--- --xx'
+
+12 times
+	rotate frame/100
+	noFill
+	box
+	animationStyle paintOver
+	move
+
+play "beep" + int(random 10) ,'xxxxx-- xx --- xx'
+play "ciack" + int(random 2) ,'x'play "crash" + int(random 10) ,'xxx- xx xx -- --- - -'
+play "growl" + int(random 6) ,'xxxxx--- -----   -- - --  x  x   -- --- ----  '
+play "hoover" + int(random 2) ,'x'
+play "mouth" + int(random 5) ,'x--x xx-- '
+play "tranceKick" + int(random 4) ,'x'
+play "scratch" + int(random 14) ,'x'
